@@ -1,0 +1,95 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: sample1.aux
+White space in argument---line 8 of file sample1.aux
+ : \citation{cai2014toward,
+ :                          gharsallaoui2014comparative, shea2013cloud, cai2013next, chuah2014cloud, wang2012cloud, huang2013gaminganywhere}
+I'm skipping whatever remains of this command
+The style file: ACM-Reference-Format-Journals.bst
+Database file #1: ../references.bib
+You're missing a field name---line 283 of file ../references.bib
+ : 
+ : %  title = {Amazon AppStream Developer Guide},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 290 of file ../references.bib
+ : 
+ : %  title = {Amazon Web Services},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 354 of file ../references.bib
+ : 
+ : %  title = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "azure" isn't style-file defined
+--line 389 of file ../references.bib
+Warning--entry type for "onlive" isn't style-file defined
+--line 404 of file ../references.bib
+Repeated entry---line 565 of file ../references.bib
+ : @inproceedings{barboza2010simple
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 583 of file ../references.bib
+ : @article{lee2014facet
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty year in ec2
+Warning--empty publisher in barboza2010simple
+Warning--empty address in barboza2010simple
+Warning--empty publisher in cai2014resource
+Warning--empty address in cai2014resource
+Warning--empty publisher in cai2012multiplayer
+Warning--empty address in cai2012multiplayer
+Warning--empty publisher in cai2014decomposed
+Warning--empty address in cai2014decomposed
+Warning--empty publisher in cai2013next
+Warning--empty address in cai2013next
+Warning--empty publisher in cai2013cognitive
+Warning--empty address in cai2013cognitive
+Warning--empty publisher in claypool2009motion
+Warning--empty address in claypool2009motion
+Warning--empty publisher in claypool2014effects
+Warning--empty address in claypool2014effects
+Warning--empty year in nvidia
+Warning--no journal in domenico2014evaluation
+Warning--no number and no volume in domenico2014evaluation
+Warning--page numbers missing in both pages and numpages fields in domenico2014evaluation
+Warning--empty publisher in eisert2007remoteRendering
+Warning--empty address in eisert2007remoteRendering
+Warning--empty publisher in eisert2008LanGaming
+Warning--empty address in eisert2008LanGaming
+Warning--empty year in gaikai
+Warning--empty publisher in gharsallaoui2014comparative
+Warning--empty address in gharsallaoui2014comparative
+Warning--empty publisher in hong2013qoe
+Warning--empty address in hong2013qoe
+Warning--empty publisher in huang2013gaminganywhere
+Warning--empty address in huang2013gaminganywhere
+Warning--empty publisher in jarschel2011evaluation
+Warning--empty address in jarschel2011evaluation
+Warning--empty year in kalydo
+Warning--empty publisher in lampe2013will
+Warning--empty address in lampe2013will
+Warning--no number and no volume in lee2014facet
+Warning--page numbers missing in both pages and numpages fields in lee2014facet
+Warning--empty publisher in lee2014demo
+Warning--empty address in lee2014demo
+Warning--empty publisher in lee2012all
+Warning--empty address in lee2012all
+Warning--empty year in azure
+Warning--empty publisher in moreno2012mobile
+Warning--empty address in moreno2012mobile
+Warning--empty publisher in mungee1999design
+Warning--empty address in mungee1999design
+Warning--empty year in onlive
+Warning--empty publisher in semsarzadeh2014video
+Warning--empty address in semsarzadeh2014video
+Warning--empty publisher in shi2011using
+Warning--empty address in shi2011using
+Warning--empty publisher in suselbeck2009peer
+Warning--empty address in suselbeck2009peer
+Warning--empty publisher in suznjevic2014towards
+Warning--empty address in suznjevic2014towards
+Warning--no number and no volume in tzruya2006gamesATlarge
+Warning--empty publisher in wang2009modeling
+Warning--empty address in wang2009modeling
+(There were 6 error messages)

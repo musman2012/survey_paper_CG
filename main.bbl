@@ -1,0 +1,533 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{??}{app}{}]%
+        {appStream}
+  (????).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ahiska and Ahiska}{Ahiska and Ahiska}{2012}]%
+        {ahiska2012adaptive}
+{Yavuz Ahiska} {and} {Bartu Ahiska}. 2012.
+\newblock Adaptive Application Streaming In Cloud Gaming.
+\newblock   (April~27 2012).
+\newblock
+\newblock
+\shownote{US Patent App. 13/458,437.}
+
+
+\bibitem[\protect\citeauthoryear{Barboza, Lima, Clua, and Rebello}{Barboza
+  et~al\mbox{.}}{2010}]%
+        {barboza2010simple}
+{Diego~Cordeiro Barboza}, {Harlley Lima}, {Esteban Walter~Gonzalez Clua}, {and}
+  {Vinod~EF Rebello}. 2010.
+\newblock \showarticletitle{A simple architecture for digital games on demand
+  using low performance resources under a cloud computing paradigm}. In {\em
+  Games and Digital Entertainment (SBGAMES), 2010 Brazilian Symposium on}.
+  IEEE, 33--39.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Chan, Wang, and Leung}{Cai
+  et~al\mbox{.}}{2015}]%
+        {cai2015cognitive}
+{Wei Cai}, {Henry~CB Chan}, {Xiaofei Wang}, {and} {Victor Leung}. 2015.
+\newblock \showarticletitle{Cognitive Resource Optimization for the Decomposed
+  Cloud Gaming Platform}.
+\newblock {\em Circuits and Systems for Video Technology, IEEE Transactions
+  on\/} {25}, 12 (2015), 2038--2051.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Chen, and Leung}{Cai
+  et~al\mbox{.}}{2014a}]%
+        {cai2014toward}
+{Wei Cai}, {Min Chen}, {and} {Victor Leung}. 2014a.
+\newblock \showarticletitle{Toward gaming as a service}.
+\newblock {\em Internet Computing, IEEE\/} {18}, 3 (2014), 12--18.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Chen, Zhou, Leung, and Chan}{Cai
+  et~al\mbox{.}}{2014b}]%
+        {cai2014resource}
+{Wei Cai}, {Min Chen}, {Conghui Zhou}, {Victor Leung}, {and} {Henry Chan}.
+  2014b.
+\newblock \showarticletitle{Resource management for cognitive cloud gaming}. In
+  {\em Communications (ICC), 2014 IEEE International Conference on}. IEEE,
+  3456--3461.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai and Leung}{Cai and Leung}{2012}]%
+        {cai2012multiplayer}
+{Wei Cai} {and} {Victor Leung}. 2012.
+\newblock \showarticletitle{Multiplayer cloud gaming system with cooperative
+  video sharing}. In {\em Cloud Computing Technology and Science (CloudCom),
+  2012 IEEE 4th International Conference on}. IEEE, 640--645.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai and Leung}{Cai and Leung}{2014}]%
+        {cai2014decomposed}
+{Wei Cai} {and} {Victor Leung}. 2014.
+\newblock \showarticletitle{Decomposed cloud games: Design principles and
+  challenges}. In {\em Multimedia and Expo Workshops (ICMEW), 2014 IEEE
+  International Conference on}. IEEE, 1--4.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Leung, and Chen}{Cai
+  et~al\mbox{.}}{2013}]%
+        {cai2013next}
+{Wei Cai}, {Victor Leung}, {and} {Min Chen}. 2013.
+\newblock \showarticletitle{Next generation mobile cloud gaming}. In {\em
+  Service Oriented System Engineering (SOSE), 2013 IEEE 7th International
+  Symposium on}. IEEE, 551--560.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Leung, and Hu}{Cai et~al\mbox{.}}{2014}]%
+        {cai2014cloudlet}
+{Wei Cai}, {Victor~CM Leung}, {and} {Long Hu}. 2014.
+\newblock \showarticletitle{A cloudlet-assisted multiplayer cloud gaming
+  system}.
+\newblock {\em Mobile Networks and Applications\/} {19}, 2 (2014), 144--152.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Shea, Huang, Chen, Liu, Leung, and
+  Hsu}{Cai et~al\mbox{.}}{2016}]%
+        {cai2016future}
+{Wei Cai}, {Ryan Shea}, {Chun-Ying Huang}, {Kuan-Ta Chen}, {Jiangchuan Liu},
+  {Victor~CM Leung}, {and} {Cheng-Hsin Hsu}. 2016.
+\newblock \showarticletitle{The Future of Cloud Gaming [Point of View]}.
+\newblock {\it Proc. IEEE} {104}, 4 (2016), 687--691.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cai, Zhou, Leung, and Chen}{Cai
+  et~al\mbox{.}}{2013}]%
+        {cai2013cognitive}
+{Wei Cai}, {Conghui Zhou}, {Victor Leung}, {and} {Min Chen}. 2013.
+\newblock \showarticletitle{A cognitive platform for mobile cloud gaming}. In
+  {\em Cloud Computing Technology and Science (CloudCom), 2013 IEEE 5th
+  International Conference on}, Vol.~1. IEEE, 72--79.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chuah, Yuen, and Cheung}{Chuah
+  et~al\mbox{.}}{2014}]%
+        {chuah2014cloud}
+{Seong-Ping Chuah}, {Chau Yuen}, {and} {Ngai-Man Cheung}. 2014.
+\newblock \showarticletitle{Cloud gaming: a green solution to massive
+  multiplayer online games}.
+\newblock {\em Wireless Communications, IEEE\/} {21}, 4 (2014), 78--87.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Claypool}{Claypool}{2009}]%
+        {claypool2009motion}
+{Mark Claypool}. 2009.
+\newblock \showarticletitle{Motion and scene complexity for streaming video
+  games}. In {\em Proceedings of the 4th International Conference on
+  Foundations of Digital Games}. ACM, 34--41.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Claypool and Finkel}{Claypool and
+  Finkel}{2014}]%
+        {claypool2014effects}
+{Mark Claypool} {and} {David Finkel}. 2014.
+\newblock \showarticletitle{The effects of latency on player performance in
+  cloud-based games}. In {\em Network and Systems Support for Games (NetGames),
+  2014 13th Annual Workshop on}. IEEE, 1--6.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Corporation}{Corporation}{}]%
+        {nvidia}
+{NVDIA Corporation}.
+\newblock {The Power of Cloud Gaming}.
+\newblock   (????).
+\newblock
+\showURL{%
+\url{http://www.nvidia.com/object/cloud-gaming.html}}
+
+
+\bibitem[\protect\citeauthoryear{De~Winter, Simoens, Deboosere, De~Turck,
+  Moreau, Dhoedt, and Demeester}{De~Winter et~al\mbox{.}}{2006}]%
+        {DeWinter:2006:hybridThinClient}
+{D. De~Winter}, {P. Simoens}, {L. Deboosere}, {F. De~Turck}, {J. Moreau}, {B.
+  Dhoedt}, {and} {P. Demeester}. 2006.
+\newblock \showarticletitle{A Hybrid Thin-client Protocol for Multimedia
+  Streaming and Interactive Gaming Applications}. In {\em Proceedings of the
+  2006 International Workshop on Network and Operating Systems Support for
+  Digital Audio and Video} {\em (NOSSDAV '06)}. ACM, New York, NY, USA, Article
+  15, 6 pages.
+\newblock
+\showISBNx{1-59593-285-2}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/1378191.1378210}}
+
+
+\bibitem[\protect\citeauthoryear{Domenico}{Domenico}{2014}]%
+        {domenico2014evaluation}
+{A~Di Domenico}. 2014.
+\newblock \showarticletitle{An evaluation of the impact of multimodal feedback
+  on interaction performance and experience in mobile gaming}.
+\newblock  (2014).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eisert and Fechteler}{Eisert and
+  Fechteler}{2007}]%
+        {eisert2007remoteRendering}
+{Peter Eisert} {and} {Philipp Fechteler}. 2007.
+\newblock \showarticletitle{Remote Rendering of Computer Games.}. In {\em
+  SIGMAP}. 438--443.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eisert and Fechteler}{Eisert and
+  Fechteler}{2008}]%
+        {eisert2008LanGaming}
+{P. Eisert} {and} {P. Fechteler}. 2008.
+\newblock \showarticletitle{Low delay streaming of computer graphics}. In {\em
+  2008 15th IEEE International Conference on Image Processing}. 2704--2707.
+\newblock
+\showISSN{1522-4880}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICIP.2008.4712352}}
+
+
+\bibitem[\protect\citeauthoryear{Gaikai}{Gaikai}{}]%
+        {gaikai}
+{Gaikai}.
+\newblock {Gaikai}.
+\newblock   (????).
+\newblock
+\showURL{%
+\url{https://www.gaikai.com/}}
+
+
+\bibitem[\protect\citeauthoryear{Gharsallaoui, Hamdi, and Kim}{Gharsallaoui
+  et~al\mbox{.}}{2014}]%
+        {gharsallaoui2014comparative}
+{Rahma Gharsallaoui}, {Mohamed Hamdi}, {and} {Tai-Hoon Kim}. 2014.
+\newblock \showarticletitle{A Comparative Study on Cloud Gaming Platforms}. In
+  {\em Control and Automation (CA), 2014 7th Conference on}. IEEE, 28--32.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hong, Chen, Huang, Chen, and Hsu}{Hong
+  et~al\mbox{.}}{2013}]%
+        {hong2013qoe}
+{Hua-Jun Hong}, {De-Yu Chen}, {Chun-Ying Huang}, {Kuan-Ta Chen}, {and}
+  {Cheng-Hsin Hsu}. 2013.
+\newblock \showarticletitle{QoE-aware virtual machine placement for cloud
+  games}. In {\em Network and Systems Support for Games (NetGames), 2013 12th
+  Annual Workshop on}. IEEE, 1--2.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hong, Hsu, Tsai, Huang, Chen, and Hsu}{Hong
+  et~al\mbox{.}}{2015}]%
+        {hong2015enabling}
+{Hua-Jun Hong}, {Chih-Fan Hsu}, {Tsung-Han Tsai}, {Chun-Ying Huang}, {Kuan-Ta
+  Chen}, {and} {Cheng-Hsin Hsu}. 2015.
+\newblock \showarticletitle{Enabling adaptive cloud gaming in an open-source
+  cloud gaming platform}.
+\newblock {\em Circuits and Systems for Video Technology, IEEE Transactions
+  on\/} {25}, 12 (2015), 2078--2091.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Chen, Hsu, and Chen}{Huang
+  et~al\mbox{.}}{2013}]%
+        {huang2013gaminganywhere}
+{Chun-Ying Huang}, {De-Yu Chen}, {Cheng-Hsin Hsu}, {and} {Kuan-Ta Chen}. 2013.
+\newblock \showarticletitle{GamingAnywhere: an open-source cloud gaming
+  testbed}. In {\em Proceedings of the 21st ACM international conference on
+  Multimedia}. ACM, 827--830.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Chen, Chen, Hsu, and Hsu}{Huang
+  et~al\mbox{.}}{2014}]%
+        {huang2014gaminganywhere}
+{Chun-Ying Huang}, {Kuan-Ta Chen}, {De-Yu Chen}, {Hwai-Jung Hsu}, {and}
+  {Cheng-Hsin Hsu}. 2014.
+\newblock \showarticletitle{GamingAnywhere: The first open source cloud gaming
+  system}.
+\newblock {\em ACM Transactions on Multimedia Computing, Communications, and
+  Applications (TOMM)\/} {10}, 1s (2014), 10.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jarschel, Schlosser, Scheuring, and
+  Ho{\ss}feld}{Jarschel et~al\mbox{.}}{2011}]%
+        {jarschel2011evaluation}
+{Michael Jarschel}, {Daniel Schlosser}, {Sven Scheuring}, {and} {Tobias
+  Ho{\ss}feld}. 2011.
+\newblock \showarticletitle{An evaluation of QoE in cloud gaming based on
+  subjective tests}. In {\em Innovative Mobile and Internet Services in
+  Ubiquitous Computing (IMIS), 2011 Fifth International Conference on}. IEEE,
+  330--335.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kalydo}{Kalydo}{}]%
+        {kalydo}
+{Kalydo}.
+\newblock {Kalydo}.
+\newblock   (????).
+\newblock
+\showURL{%
+\url{http://http://www.kalydo.com/}}
+
+
+\bibitem[\protect\citeauthoryear{Lampe, Hans, and Steinmetz}{Lampe
+  et~al\mbox{.}}{2013}]%
+        {lampe2013will}
+{Ulrich Lampe}, {Ronny Hans}, {and} {Ralf Steinmetz}. 2013.
+\newblock \showarticletitle{Will mobile cloud gaming work? findings on latency,
+  energy, and cost}. In {\em Proc. of IEEE International Conference on Mobile
+  Services (MS’13)}. 960--961.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee, Karlova, Clarke, Thornton, and Perti}{Lee
+  et~al\mbox{.}}{2014b}]%
+        {lee2014facet}
+{Jin~Ha Lee}, {Natascha Karlova}, {Rachel~Ivy Clarke}, {Katherine Thornton},
+  {and} {Andrew Perti}. 2014b.
+\newblock \showarticletitle{Facet analysis of video game genres}.
+\newblock {\em iConference 2014 Proceedings\/} (2014).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee, Chu, Cuervo, Kopf, Wolman, Degtyarev,
+  Grizan, and Flinn}{Lee et~al\mbox{.}}{2015}]%
+        {lee2015outatime}
+{Kyungmin Lee}, {David Chu}, {Eduardo Cuervo}, {Johannes Kopf}, {Alec Wolman},
+  {Yury Degtyarev}, {Sergey Grizan}, {and} {Jason Flinn}. 2015.
+\newblock \showarticletitle{Outatime: Using speculation to enable low-latency
+  continuous interaction for mobile cloud gaming}.
+\newblock {\em GetMobile: Mobile Computing and Communications\/} {19}, 3
+  (2015), 14--17.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee, Chu, Cuervo, Wolman, and Flinn}{Lee
+  et~al\mbox{.}}{2014a}]%
+        {lee2014demo}
+{Kyungmin Lee}, {David Chu}, {Eduardo Cuervo}, {Alec Wolman}, {and} {Jason
+  Flinn}. 2014a.
+\newblock \showarticletitle{Demo: Delorean: Using speculation to enable
+  low-latency continuous interaction for mobile cloud gaming}. In {\em
+  Proceedings of the 12th annual international conference on Mobile systems,
+  applications, and services}. ACM, 347--347.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee, Chen, Su, and Lei}{Lee
+  et~al\mbox{.}}{2012}]%
+        {lee2012all}
+{Yeng-Ting Lee}, {Kuan-Ta Chen}, {Han-I Su}, {and} {Chin-Laung Lei}. 2012.
+\newblock \showarticletitle{Are all games equally cloud-gaming-friendly? an
+  electromyographic approach}. In {\em Network and Systems Support for Games
+  (NetGames), 2012 11th Annual Workshop on}. IEEE, 1--6.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Manzano, Uruena, Su{\v{z}}njevi{\'c}, Calle,
+  Hernandez, and Matijasevic}{Manzano et~al\mbox{.}}{2014}]%
+        {manzano2014dissecting}
+{Marc Manzano}, {Manuel Uruena}, {M Su{\v{z}}njevi{\'c}}, {Eusebi Calle},
+  {Jose~Alberto Hernandez}, {and} {Maja Matijasevic}. 2014.
+\newblock \showarticletitle{Dissecting the protocol and network traffic of the
+  OnLive cloud gaming platform}.
+\newblock {\em Multimedia systems\/} {20}, 5 (2014), 451--470.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moreno, Tizon, and Preda}{Moreno
+  et~al\mbox{.}}{2012}]%
+        {moreno2012mobile}
+{Christina Moreno}, {Nicolas Tizon}, {and} {Marius Preda}. 2012.
+\newblock \showarticletitle{Mobile cloud convergence in gaas: A business model
+  proposition}. In {\em System Science (HICSS), 2012 45th Hawaii International
+  Conference on}. IEEE, 1344--1352.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mungee, Surendran, and Schmidt}{Mungee
+  et~al\mbox{.}}{1999}]%
+        {mungee1999design}
+{Sumedh Mungee}, {Nagarajan Surendran}, {and} {Douglas~C Schmidt}. 1999.
+\newblock \showarticletitle{The design and performance of a CORBA audio/video
+  streaming service}. In {\em Systems Sciences, 1999. HICSS-32. Proceedings of
+  the 32nd Annual Hawaii International Conference on}. IEEE, 14--pp.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ojala and Tyrvainen}{Ojala and
+  Tyrvainen}{2011}]%
+        {ojala2011developing}
+{Arto Ojala} {and} {Pasi Tyrvainen}. 2011.
+\newblock \showarticletitle{Developing cloud business models: A case study on
+  cloud gaming}.
+\newblock {\em IEEE software\/} {28}, 4 (2011), 42.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{OnLive}{OnLive}{}]%
+        {onlive}
+{OnLive}.
+\newblock OnLive.
+\newblock   (????).
+\newblock
+\showURL{%
+\url{http://onlive.com/}}
+\newblock
+\shownote{Accessed: 2015-11-20.}
+
+
+\bibitem[\protect\citeauthoryear{Semsarzadeh, Hemmati, Javadtalab, Yassine, and
+  Shirmohammadi}{Semsarzadeh et~al\mbox{.}}{2014}]%
+        {semsarzadeh2014video}
+{Mehdi Semsarzadeh}, {Mahdi Hemmati}, {Abbas Javadtalab}, {Abdulsalam Yassine},
+  {and} {Shervin Shirmohammadi}. 2014.
+\newblock \showarticletitle{A video encoding speed-up architecture for cloud
+  gaming}. In {\em Multimedia and Expo Workshops (ICMEW), 2014 IEEE
+  International Conference on}. IEEE, 1--6.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shea, Liu, Ngai, and Cui}{Shea
+  et~al\mbox{.}}{2013}]%
+        {shea2013cloud}
+{Ryan Shea}, {Jiangchuan Liu}, {Edith Ngai}, {and} {Yong Cui}. 2013.
+\newblock \showarticletitle{Cloud gaming: architecture and performance}.
+\newblock {\em Network, IEEE\/} {27}, 4 (2013), 16--21.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shi, Hsu, Nahrstedt, and Campbell}{Shi
+  et~al\mbox{.}}{2011}]%
+        {shi2011using}
+{Shu Shi}, {Cheng-Hsin Hsu}, {Klara Nahrstedt}, {and} {Roy Campbell}. 2011.
+\newblock \showarticletitle{Using graphics rendering contexts to enhance the
+  real-time video coding for mobile cloud gaming}. In {\em Proceedings of the
+  19th ACM international conference on Multimedia}. ACM, 103--112.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{S{\"u}selbeck, Schiele, and
+  Becker}{S{\"u}selbeck et~al\mbox{.}}{2009}]%
+        {suselbeck2009peer}
+{Richard S{\"u}selbeck}, {Gregor Schiele}, {and} {Christian Becker}. 2009.
+\newblock \showarticletitle{Peer-to-peer support for low-latency Massively
+  Multiplayer Online Games in the cloud}. In {\em Network and Systems Support
+  for Games (NetGames), 2009 8th Annual Workshop on}. IEEE, 1--2.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Suznjevic, Beyer, Skorin-Kapov, Moller, and
+  Sorsa}{Suznjevic et~al\mbox{.}}{2014}]%
+        {suznjevic2014towards}
+{Mirko Suznjevic}, {Justus Beyer}, {Lea Skorin-Kapov}, {Sebastian Moller},
+  {and} {Nikola Sorsa}. 2014.
+\newblock \showarticletitle{Towards understanding the relationship between game
+  type and network traffic for cloud gaming}. In {\em Multimedia and Expo
+  Workshops (ICMEW), 2014 IEEE International Conference on}. IEEE, 1--6.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tian, Wu, He, Xu, and Chen}{Tian
+  et~al\mbox{.}}{2015}]%
+        {tian2015achieving}
+{Hao Tian}, {Di Wu}, {Jian He}, {Yuedong Xu}, {and} {Min Chen}. 2015.
+\newblock \showarticletitle{On achieving cost-effective adaptive cloud gaming
+  in geo-distributed data centers}.
+\newblock {\em Circuits and Systems for Video Technology, IEEE Transactions
+  on\/} {25}, 12 (2015), 2064--2077.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tzruya, Shani, Bellotti, and
+  Jurgelionis}{Tzruya et~al\mbox{.}}{2006}]%
+        {tzruya2006gamesATlarge}
+{Yoav Tzruya}, {Alex Shani}, {Francesco Bellotti}, {and} {Audrius Jurgelionis}.
+  2006.
+\newblock \showarticletitle{Games@ Large-a new platform for ubiquitous gaming
+  and multimedia}.
+\newblock {\em Proc. BBEurope, Geneva, Switzerland\/} (2006), 11--14.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang and Dey}{Wang and Dey}{2009}]%
+        {wang2009modeling}
+{Shaoxuan Wang} {and} {Sujit Dey}. 2009.
+\newblock \showarticletitle{Modeling and characterizing user experience in a
+  cloud server based mobile gaming approach}. In {\em Global Telecommunications
+  Conference, 2009. GLOBECOM 2009. IEEE}. IEEE, 1--7.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang and Dey}{Wang and Dey}{2012}]%
+        {wang2012cloud}
+{Shaoxuan Wang} {and} {Sujit Dey}. 2012.
+\newblock \showarticletitle{Cloud mobile gaming: modeling and measuring user
+  experience in mobile wireless networks}.
+\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review\/}
+  {16}, 1 (2012), 10--21.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wu, Yuen, Cheung, Chen, and Chen}{Wu
+  et~al\mbox{.}}{2015}]%
+        {wu2015enabling}
+{Jiyan Wu}, {Chau Yuen}, {Ngai-Man Cheung}, {Junliang Chen}, {and} {Chang~Wen
+  Chen}. 2015.
+\newblock \showarticletitle{Enabling adaptive high-frame-rate video streaming
+  in mobile cloud gaming applications}.
+\newblock {\em Circuits and Systems for Video Technology, IEEE Transactions
+  on\/} {25}, 12 (2015), 1988--2001.
+\newblock
+
+
+\end{thebibliography}
