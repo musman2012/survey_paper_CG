@@ -263,6 +263,16 @@ Since, in cloud gaming, output of games is streamed to client over the internet 
     \item	Rendering module
 \end{itemize}
 
+A general interaction of these components is shown in Figure \ref{img:gameComp}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=4.5in, height=2.2in]{Images/gameComponents.png}
+  \caption{Components in a General Cloud Gaming Application}
+  \label{img:gameComp}
+\end{figure}
+
+
 Based on these components, different architectures are possible for a cloud game. Firstly, these components and their functionality will be explained and then the possible architectures of a cloud gaming application will be analyzed.
 
 \subsubsection{Video Renderer}
@@ -270,6 +280,7 @@ Once the input commands are received by the game logic, game world changes accor
 
 \subsubsection{Input Handler}
 User interactions are received by this module. After receiving the inputs, the module converts these mouse clicks and key strokes to appropriate commands and send those commands to the game logic. This component must be at the client side of a cloud gaming system\cite{shea2013cloud}.
+
 
 \subsection{Possible Architectures of Cloud Gaming Applications}
 Recent literature provides two different parameters for elaborating CG application architectures as described below:
@@ -306,7 +317,17 @@ The first approach is discussed in \cite{cai2014toward}, and according to this w
 
   \item \textbf{Local Rendering:} The model does components' divisions in such a way that video renderer also resides at client side with input controller, and remaining parts of the game are kept in the cloud. The model resolves the bandwidth issues by rendering the scenes at the client side. This architecture resembles with remote rendering model till the input commands update game scenes, but rather rendering the scenes and sending the packets, output instructions are generated and sent towards the client. Then, the client receives these instructions, renders the scenes using these instructions and displays to the end user\cite{cai2014toward}. As mentioned, in comparison to remote rendering, this model is remarkably efficient in terms of internet bandwidth. Mobile browser gaming has adopted this architecture in most of the applications.
 
-  \item \textbf{Cognitive:} This model has dynamic separations of client and cloud parts of the game. In this approach, client and cloud divisions of the game are dynamically decided on behalf of the user resources (e. g. computation and rendering power, bandwidth). Cai et al. (2013) \cite{cai2013next} proposed this method in their work where cloud gaming application was divided into various parts. Also, the application was able to transfer game components from cloud to the client and vice versa. But, to achieve this collaboration (on-loading and off-loading components), the application must be partitioned into components in such a way that can resolve dependency issues. Also, the work did not elaborate the control mechanism of this components' movement, there should be a component within the application that can make decisions on this on-loading and off-loading actions.
+  \item \textbf{Cognitive:} This model has dynamic separations of client and cloud parts of the game. In this approach, client and cloud divisions of the game are dynamically decided on behalf of the user resources (e. g. computation and rendering power, bandwidth). Cai et al. (2013) \cite{cai2013next} proposed this method in their work where cloud gaming application was divided into various parts. Also, the application was able to transfer game components from cloud to the client and vice versa. But, to achieve this collaboration (on-loading and off-loading components), the application must be partitioned into components in such a way that can resolve dependency issues. Also, the work did not elaborate the control mechanism of this components' movement, there should be a component within the application that can make decisions on this on-loading and off-loading actions. Figure \ref{img:cognitive} explains working mechanism in cognitive model of Cloud Gaming application.
+      
+      
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=4.5in, height=2.2in]{Images/cognitiveModel.png}
+    \caption{Cognitive Model of Cloud Gaming Application}
+    \label{img:cognitive}
+    \end{figure}
+
+      
 \end{enumerate}
 
 
