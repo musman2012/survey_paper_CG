@@ -192,6 +192,7 @@ This detail is to be filled at the end.
 
 
 \section{cloud computing}
+\textbf{Adnan Comment: I think it is fine to have a section on cloud computing first which later connects to Cloud Gaming. The current writeup seems a bit lengthy and repetetive.}
 The National Institute of Standards and Technology-(NIST) defines Cloud Computing as a “model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction” (Mell, 2011). Cloud computing provides a virtual computing environment with scalable and elastic computing services in accordance with the demand by consumers.
 The Cloud computing paradigm argues to offer a number of benefits such as – flexibility, trust, cost effectiveness, reliability, provision of software updates, pay-as-you-go, reduced disaster recovery cost, remote access, secure and adoptable. A cloud client can access cloud services using their desktop computers, laptop computers, tablets and mobile phones, equipped with internet connection facilities through simple web clients. As described by (Wyld, 2009) cloud computing offers, with further potential of:
 - Rapid scalability and deployment capabilities (to provide ‘just in time’ computing power and infrastructures).
@@ -203,7 +204,7 @@ The Cloud computing paradigm argues to offer a number of benefits such as – fl
 - Capacity for on-demand infrastructure and computational power
 - Ecofriendly with a green or reduced environmental footprint
 - Improved disaster recovery capabilities through fault tolerance mechanisms.
-Figure 2 Cloud Computing c.f. (Srinavasin, 2012) (REDRAW)
+\textbf{@USMAN: Figure 2 Cloud Computing c.f. (Srinavasin, 2012) (REDRAW)}
 
 The recent NIST definition of Cloud Computing (L. Badger, May 2011) offers five main characteristics of Cloud computing most beneficial to clients:
 - Users can automatically benefit from the Cloud services without communicating with the service providers.
@@ -223,28 +224,34 @@ Infrastructure as a Service (IaaS): IaaS considered the basic layer of computing
 \subsection{Gaming on the Cloud}
 It is inferred that the idea of Cloud Gaming was emerged from the concept of audio and video streaming \cite{mungee1999design}. In 2006, De Winter et al. \cite{DeWinter:2006:hybridThinClient} proposed a hybrid thin client protocol for multimedia streaming where they addressed interactive games too. In their work, a realtime desktop streamer was formulated using a video-codec to stream the graphical output of applications after GPU- processing to a thin-client device. Then, in 2007, Eisert and Fechteler \cite{eisert2007remoteRendering} introduced the concept of remote rendering of computer games. This work was a part of European project Games@Large \cite{tzruya2006gamesATlarge} and can be declared as a stepping stone in cloud gaming. Apart from elaborating the concept of rendering the game scenes at server and streaming the video scenes towards the client, the work also explained the idea of local rendering for cloud gaming application where graphic commands were streamed to the client and game scenes were rendered locally. Also, a closer step to this fascinating technology was taken by Eisert and Fechteler\cite{eisert2008LanGaming} in 2008 when they introduced the idea of computer graphics streaming over Local Area Network (LAN). The work was specifically focusing on graphics in video games and how these games can be streamed over the local area network. In 2008, emergence of OnLive\cite{onlive} as the first commercial platform for providing 'Gaming as A service' and its high appreciation motivated the business and academic community to take 'Cloud Gaming' more seriously. After this progress, most of the work was done to overcome the challenges (Bandwidth usually) in CG. After OnLive, many other cloud gaming platforms also emerged including Gaikai\cite{gaikai}, NVIDIA GRID\cite{nvidia}, and GamingAnyWhere\cite{huang2013gaminganywhere} which was the first open source cloud gaming platform that has been started to use for research purpose. Most of the cloud gaming platforms are using remote rendering model of CG and game video is being streamed towards the client. But, an important break-through was done by Wei Cai et al. in \cite{cai2013cognitive} when they proposed and implemented a `Cognitive Model' of CG in which game components were being transferred from the cloud to the client and vice versa to get a better gaming experience.
 
+\section{Cloud Gaming Overview}
+Cloud gaming has a potential to provide distinct advantages to different stake holders. To understand these potential advantages, we should first look at the stakeholders involved in cloud gaming. 
 
-\section{Cloud Gaming in Literature}
+\subsection{Involved Actors}
+In traditional gaming industry, players and developers were the only two stake holders in gaming industry. With the advent of cloud gaming, game service providers is also added. Game service provider is a class of actors which does not design and develop a game, instead it provides only the hosting services for games. 
 
+\subsection{Potential Advantages of Cloud Gaming}
 
-Cloud gaming provides the following advantages to the player community of computer games \cite{cai2013next}:
+\subsubsection{Potential Advantages for Players}
+player community of computer games \cite{cai2013next}:
 \begin{itemize}
   \item \textbf{Thin Client:} A very thin client is needed to play the game, as games are being rendered on the cloud, and video is streamed from server. As a result, the client is required to receive and show the video frames of the game, and send the user's interactions to the cloud.
   \item \textbf{Potential Battery Conservation:} Complex rendering is being done on the cloud which reduces the battery consumption of the client machine.
   \item \textbf{Seamless gaming:} Games are platform independent and the players can seamlessly play the same game resuming from the same level by sitting anywhere in the world.
 \end{itemize}
 
-\subsection{Involved Actors}
-
-Players
-
-Developers:
+\subsubsection{Potential Advantages for Developers}
 Apart from being beneficial for the player community, cloud gaming provides following advantages to the developer community of computer games:
 \begin{itemize}
   \item \textbf{Secure Gaming:} Data related to the game (e. g. level information) is residing in the cloud and only developer has complete access to all the data. This stops the users from getting the pirated version of the game.
   \item \textbf{Easy Updates:} Game logic and game information are mostly residing on the cloud so the developer can update the cloud part of the game and that would be automatically reflected to the client.
   \item \textbf{Unlimited Cloud Resources:} Developers have no need to worry about the storage or computing resources for the game as the cloud is providing scalable resources\cite{cai2013next}.
 \end{itemize}
+
+\subsubsection{Potential Advantages for Game service providers}
+These advantages here.
+
+However, the advantages described above cannot be achieved without overcoming significant challenges. These challenges are discussed next.
 
 \subsection{Cloud Gaming Challenges}
 Despite the advantages provided by cloud gaming, the area still has many challenges which are needed to be managed by the researchers. The challenges faced by the cloud gaming application depend on the architecture of that application. For example, the biggest hurdle in the efficiency of a `Remote Rendering Cloud gaming application' is \textbf{the limited bandwidth}. Since the scenes of the game have to be transmitted over the internet in the form of video frames. Therefore, the bandwidth needs to be fast enough to quickly transmit these frames to the client and interactions of client back to the server. Similarly, the complication in `Local Rendering application' is the \textbf{formation of such instructions} that could be used to completely render the scene of game at client side.\cite{cai2014toward}
