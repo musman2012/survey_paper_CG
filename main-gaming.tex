@@ -73,7 +73,7 @@
 %       currently affiliated with NASA.
 
 \begin{abstract}
-Gaming-as-a-service is an emerging application of hosting and providing games using cloud services. Inheriting from the server-client models, the gaming industry is using these techniques to build sophisticated gaming software to run remotely, on powerful servers, and streamed to relatively simple devices. However, with the potential advantages of reduced costs and maintenance, the as-a-service techniques come with increased research challenges for developers and industries alike. These include issues of limited network bandwidth, accessibility, 100\% guaranteed service, optimal service delivery, reduced network jitters and more, causing loss in information and reliability of the model. As a means to summarise current efforts by industries and researchers in this domain, this survey discusses the various models and architectures proposed for enhancing gaming-as-a-service. By highlighting the current research challenges, we propose directions for the scientific community to work on to build better reliable gaming service models for cloud platforms. In order to test some of the hypothesis, we build a game BreakingBricks over the AWS IaaS platform to study some of the latency and network bandwidth issues, with the impact it has on the gamers and virtual platforms hosting the game. Our results have shown that
+Gaming-as-a-service is an emerging application of hosting and providing games using cloud services. Inheriting from the server-client models, the gaming industry is using these techniques to build sophisticated gaming software to run remotely, on powerful servers, and streamed to relatively simple devices. However, with the potential advantages of reduced costs and maintenance, the as-a-service techniques come with increased research challenges for developers and industries alike. These include issues of limited network bandwidth, accessibility, 100\% guaranteed service, optimal service delivery, reduced network jitters and more, causing loss in information and reliability of the model. As a means to summarise current efforts by industries and researchers in this domain, this survey discusses the various models and architectures proposed for enhancing gaming-as-a-service. By highlighting the current research challenges, we propose directions for the scientific community to work on to build better reliable gaming service models for cloud platforms. In order to test some of the hypothesis, we build a game BreakingBricks over the AWS IaaS platform to study some of the latency and network bandwidth issues, with the impact it has on the gamers and virtual platforms hosting the game. Our results have shown that....
 \end{abstract}
 
 
@@ -107,7 +107,7 @@ Gaming-as-a-service is an emerging application of hosting and providing games us
 </ccs2012>
 \end{CCSXML}
 
-\ccsdesc[500]{Cloud Gaming~Gaming as a service}
+\ccsdesc[500]{Cloud Gaming~Gaming-as-a-service}
 \ccsdesc[300]{Gaming on demand~Mobile Cloud Gaming}
 \ccsdesc[100]{Next generation mobile gaming~Online gaming}
 \ccsdesc[100]{Multimedia live streaming~Live video streaming}
@@ -118,7 +118,7 @@ Gaming-as-a-service is an emerging application of hosting and providing games us
 
 \terms{Cloud Gaming, client-server architecture models, quality of experience, Cloud Computing, Distributed Computing}
 
-\keywords{cloud, game, video, remote}
+\keywords{cloud computing, game programming, video rendering, real-time processing, gaming-as-a-service}
 
 \acmformat{Gang Zhou, Yafeng Wu, Ting Yan, Tian He, Chengdu Huang, John A. Stankovic,
 and Tarek F. Abdelzaher, 2010. A multifrequency MAC specially
@@ -148,11 +148,13 @@ University of Minnesota; C. Huang, Google; T. F. Abdelzaher,
 
 \section{Introduction}
 
-Cloud computing has been accepted as a new computing paradigm which has introduced a different concept resources being offered ‘as-a-service’ to the consumer needs. The basic concept of Cloud Computing is the provision of computing resources (hardware, software and network infrastructure) and services through the internet medium. These resources and services are maintained by third party organizations on the internet, reducing the cost of maintenance and management of hardware and software to the consumer or client companies and individuals. These third parties are also responsible to keep the data available, accessible and protected at all times. Third parties provide their resources (storage, processing, application and network) to the cloud clients (individual and companies) on and according to their demand on lease as specified in the Service level agreements (Misra,). Due to the sheer nature of Cloud computing, where it provides many advantages to unlimited space, it presents challenges on data protection and needs for secure accessibility. Industry standards have produced risk standards for cloud computing security (NIST, KIRAN) looking at the environments as a whole.
+'''para Something which says the gaming industry is so expensive and makig millions, in competition to earn more
 
-Recently another area of study has emerged as a merger of cloud computing and video gaming, known as ``Cloud Gaming'' or ``Gaming as a service (GaaS)''. In cloud gaming, games are executed on the cloud and their high definition scenes are rendered using intensive cloud machines. After running the games remotely, output of the games, in the form of video frames, is streamed back towards the client. Similarly, user’s interaction with gaming application is sent back to the game running on cloud over the Internet \cite{cai2014toward}, \cite{gharsallaoui2014comparative}, \cite{shea2013cloud}, \cite{cai2013next}, \cite{chuah2014cloud}, \cite{wang2012cloud}, \cite{huang2013gaminganywhere}.
+Cloud computing, borrows from the server-client architecture, but has introduced a new computing paradigm by offering resources ‘as-a-service’ to consumers. It allows the provision of computing resources (hardware, software and network infrastructure) and services through the internet or online on-demand when needed. These resources and services are often maintained by third party organizations, thus, reducing the overall cost of maintenance and management of these to consumers or clients using them. These third parties are responsible for service availability, accessibility and security, as defined in the service level agreements signed between them and the clients. In such manner, Clouds give access to unlimited server use, storage, networking capabilities and many more. But these advantages come with problems of risk, trust and security challenges in using outside resources for clients \cite{}.
 
- Figure \ref{img:gamingApp} is explaining the working mechanism of a generic cloud gaming application.
+
+Using Cloud computing, another area has emerged to provide video gaming using cloud resources, known as ``Cloud Gaming'' or ``Gaming-as-a-service (GaaS)''. In cloud gaming, games are executed on the cloud and their high definition scenes are rendered using intensive cloud machines. After running the games remotely, output of the games, in the form of video frames, is streamed back towards the client. Similarly, user's interaction with gaming application is sent back to the game running on cloud over the Internet. Various researchers have demonstrated examples of games and advantages of using these \cite{cai2014toward}, \cite{gharsallaoui2014comparative}, \cite{shea2013cloud}, \cite{cai2013next}, \cite{chuah2014cloud}, \cite{wang2012cloud}, \cite{huang2013gaminganywhere}. Figure \ref{img:gamingApp} summarizes the mechanism of a generic cloud gaming application. This client or gamers can play intensive games through a thin client (usually hosted on a mobile device) without the need of expensive gaming consoles, processors or graphics cards available locally to play and render the scenes.
+
 \begin{figure}[h]
   \centering
   \includegraphics[width=5in, height=2.5in]{Images/Picture3.png}
@@ -161,15 +163,14 @@ Recently another area of study has emerged as a merger of cloud computing and vi
 \end{figure}
 
 
-This technology has made it easier for the end users to play intensive games on a thin client without updating software or hardware of their machines.
+'''However, what is the problem?
 
 
-
+''' What does this paper contribute?
 
 \section{Motivation and Scope}
-Cloud Gaming is now a well known area of Cloud Gaming witnessing significant progress over the years yet there is no decent recent survey of the domain. There exist some good introductory surveys such as \cite{cai2014toward} but are now outdated with respect to state of the art. There are some more recent studies which are relevant but not in depth. For instance \cite{shi2015survey} primarily covers interactive rendering system but it also has a chapter on cloud gaming. Similarly there are some other surveys which provide some overview of the domain but do not cover it in detail such as \cite{soliman2013mobile} and \cite{cai2013next}. This warrants the need of a survey which covers state of the art in all areas pertaining to Cloud Gaming.
-
-In this survey, we investigate different cloud gaming techniques and then analyse them by filtering them in relevance to the cloud computing paradigm and improving gaming experience for players. The mentioned new technology provides many advantages to the players as well as to the developer community of the computer games
+Cloud Gaming has witnessed significant progress over the past few years, with some good introductory surveys such as \cite{cai2014toward}. '''This survey covers what?
+Additionally \cite{shi2015survey} primarily covers interactive rendering systems but only slightly discusses cloud gaming. Other surveys including \cite{soliman2013mobile} and \cite{cai2013next}, do not delve into the research problems in detail. This paper aims to cover the current state of the art in all areas pertaining to Cloud Gaming. Here, we investigate different cloud gaming techniques and analyse them by filtering them in relevance to the cloud computing paradigm and improving gaming experience for players. Keeping the end-users most impacted by the techniques, we focus on the players (or clients) and the developer community of the computer games.
 
 The main goals of this survey are as follows:
 \begin{itemize}
@@ -177,6 +178,7 @@ The main goals of this survey are as follows:
 \item	Literature review of gaming algorithms and architectures
 \item	Provide an overview of existing models in the context of supporting cloud computing concepts.
 \item	Highlight existing research areas and future challenges in this area of cloud gaming.
+\item Demonstrate our finding through a test deployment of our own game developed over Amazon AWS.
 \end{itemize}
 
 \subsection{Overview of this Survey}
@@ -190,52 +192,61 @@ This detail is to be filled at the end.
 
 \section{cloud computing}
 \textbf{Adnan Comment: I think it is fine to have a section on cloud computing first which later connects to Cloud Gaming. The current writeup seems a bit lengthy and repetetive.}
-The National Institute of Standards and Technology-(NIST) defines Cloud Computing as a “model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction” (Mell, 2011). Cloud computing provides a virtual computing environment with scalable and elastic computing services in accordance with the demand by consumers.
-The Cloud computing paradigm argues to offer a number of benefits such as – flexibility, trust, cost effectiveness, reliability, provision of software updates, pay-as-you-go, reduced disaster recovery cost, remote access, secure and adoptable. A cloud client can access cloud services using their desktop computers, laptop computers, tablets and mobile phones, equipped with internet connection facilities through simple web clients. As described by (Wyld, 2009) cloud computing offers, with further potential of:
-- Rapid scalability and deployment capabilities (to provide ‘just in time’ computing power and infrastructures).
-- Decreased maintenance and upgrades for individual software maintenance.
-- Improved resource utilization such as elasticity, flexibility, efficiency.
-- Improved collaboration capabilities for software.
-- Ability to engage in usage-based pricing, making computing a variable expense, rather than the traditional fixed capital cost with high overhead.
-- Reduced information technology infrastructure needs for upfront and support costs
-- Capacity for on-demand infrastructure and computational power
-- Ecofriendly with a green or reduced environmental footprint
-- Improved disaster recovery capabilities through fault tolerance mechanisms.
+The National Institute of Standards and Technology (NIST) defines Cloud Computing as a ``model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction" \cite{}(Mell, 2011). 
+
+The paradigm offers a number of benefits such as – flexibility, trust, cost effectiveness, reliability, provision of software updates, pay-as-you-go, reduced disaster recovery cost, remote access, secure and adoptable. A cloud client can access cloud services using their desktop computers, laptop computers, tablets and mobile phones, equipped with internet connection facilities through simple web clients. As described by (Wyld, 2009) cloud computing offers, with further potential of:
+\begin{itemize}
+\item Rapid scalability and deployment capabilities (to provide ‘just in time’ computing power and infrastructures).
+\item  Decreased maintenance and upgrades for individual software maintenance.
+\item  Improved resource utilization such as elasticity, flexibility, efficiency.
+\item Improved collaboration capabilities for software.
+\item Ability to engage in usage-based pricing, making computing a variable expense, rather than the traditional fixed capital cost with high overhead.
+\item Reduced information technology infrastructure needs for upfront and support costs
+\item Capacity for on-demand infrastructure and computational power
+\item  Ecofriendly with a green or reduced environmental footprint
+\item  Improved disaster recovery capabilities through fault tolerance mechanisms.
+\end{itemize}
+''' Send Usman figure for here
 \textbf{@USMAN: Figure 2 Cloud Computing c.f. (Srinavasin, 2012) (REDRAW)}
 
-The recent NIST definition of Cloud Computing (L. Badger, May 2011) offers five main characteristics of Cloud computing most beneficial to clients:
-- Users can automatically benefit from the Cloud services without communicating with the service providers.
-- Standard protocols are used to access the computing resources over the network.
-- Cloud services follow a multi-tenant model allowing resources to be pooled and shared among users.
-- Computing capabilities can be quickly scaled in or out based on the users’ varying demands.
-- Users pay for utilized computing capabilities based on a pay-per-use model.
 \subsection{Cloud Computing Delivery Models}
+
+Cloud Computing \cite{}(L. Badger, May 2011) offers five main characteristics of Cloud computing most beneficial to clients:
+\begin{itemize}
+\item Users can automatically benefit from the Cloud services without communicating with the service providers.
+\item Standard protocols are used to access the computing resources over the network.
+\item Cloud services follow a multi-tenant model allowing resources to be pooled and shared among users.
+\item  Computing capabilities can be quickly scaled in or out based on the users’ varying demands.
+\item Users pay for utilized computing capabilities based on a pay-per-use model.
+\end{itemize}
+
 Cloud computing providers offer their services in three different models.
 Diagram for models windowns azure pre
-
-Software as a Service (SaaS): SaaS delivery model has introduced the concept of “software as service”. The software (applications) run on the cloud (located at the provider’s servers) and the service consumers can access these via the Internet, working on the software application as if it was hosted locally on their machines. Consumers do not need to know about the infrastructures that run the applications and only have to pay for the time and consumption of resources during this time (Mell, 2011),(Rittinghouse J, 2010).
-Platform as a Service (PaaS): PaaS provides affective environment and powerful tools for developers to create and deploy the applications. Developers do not need to know any details about infrastructure underlying this service such as networks, operating systems, storage. Thus, the developers or company focus on innovation instead of worrying about the infrastructure problems. Google App En-gine is a good example for this service (Buyya, 2011) (Mell, 2011).
-Infrastructure as a Service (IaaS): IaaS considered the basic layer of computing resources. It provides on demand and scalable full infrastructure resources (e.g. servers, software, network equipment and storage). IaaS enables consumer to manage and configure the cloud servers similar to the ordinary physi-cal servers. With IaaS, consumer will get rid of problems of purchasing the latest technolo-gy, maintenance, upgrading of software and software licenses. Elastic Compute Cloud (EC2) from Amazon is a sample of IaaS (Buyya, 2011) (Rittinghouse J, 2010).
-
+\begin{itemize}
+\item Software as a Service (SaaS): SaaS delivery model has introduced the concept of “software as service”. The software (applications) run on the cloud (located at the provider’s servers) and the service consumers can access these via the Internet, working on the software application as if it was hosted locally on their machines. Consumers do not need to know about the infrastructures that run the applications and only have to pay for the time and consumption of resources during this time (Mell, 2011),(Rittinghouse J, 2010).
+\item Platform as a Service (PaaS): PaaS provides affective environment and powerful tools for developers to create and deploy the applications. Developers do not need to know any details about infrastructure underlying this service such as networks, operating systems, storage. Thus, the developers or company focus on innovation instead of worrying about the infrastructure problems. Google App En-gine is a good example for this service (Buyya, 2011) (Mell, 2011).
+\item Infrastructure as a Service (IaaS): IaaS considered the basic layer of computing resources. It provides on demand and scalable full infrastructure resources (e.g. servers, software, network equipment and storage). IaaS enables consumer to manage and configure the cloud servers similar to the ordinary physi-cal servers. With IaaS, consumer will get rid of problems of purchasing the latest technolo-gy, maintenance, upgrading of software and software licenses. Elastic Compute Cloud (EC2) from Amazon is a sample of IaaS (Buyya, 2011) (Rittinghouse J, 2010).
+\end{itemize}
 
 \subsection{Gaming on the Cloud}
-It is inferred that the idea of Cloud Gaming was emerged from the concept of audio and video streaming \cite{mungee1999design}. In 2006, De Winter et al. \cite{DeWinter:2006:hybridThinClient} proposed a hybrid thin client protocol for multimedia streaming where they addressed interactive games too. In their work, a realtime desktop streamer was formulated using a video-codec to stream the graphical output of applications after GPU- processing to a thin-client device. Then, in 2007, Eisert and Fechteler \cite{eisert2007remoteRendering} introduced the concept of remote rendering of computer games. This work was a part of European project Games@Large \cite{tzruya2006gamesATlarge} and can be declared as a stepping stone in cloud gaming. Apart from elaborating the concept of rendering the game scenes at server and streaming the video scenes towards the client, the work also explained the idea of local rendering for cloud gaming application where graphic commands were streamed to the client and game scenes were rendered locally. Also, a closer step to this fascinating technology was taken by Eisert and Fechteler\cite{eisert2008LanGaming} in 2008 when they introduced the idea of computer graphics streaming over Local Area Network (LAN). The work was specifically focusing on graphics in video games and how these games can be streamed over the local area network. In 2008, emergence of OnLive\cite{onlive} as the first commercial platform for providing 'Gaming as A service' and its high appreciation motivated the business and academic community to take 'Cloud Gaming' more seriously. After this progress, most of the work was done to overcome the challenges (Bandwidth usually) in CG. After OnLive, many other cloud gaming platforms also emerged including Gaikai\cite{gaikai}, NVIDIA GRID\cite{nvidia}, and GamingAnyWhere\cite{huang2013gaminganywhere} which was the first open source cloud gaming platform that has been started to use for research purpose. Most of the cloud gaming platforms are using remote rendering model of CG and game video is being streamed towards the client. But, an important break-through was done by Wei Cai et al. in \cite{cai2013cognitive} when they proposed and implemented a `Cognitive Model' of CG in which game components were being transferred from the cloud to the client and vice versa to get a better gaming experience.
+Emerging from concepts of audio and video streaming \cite{mungee1999design}, in 2006, De Winter et al. \cite{DeWinter:2006:hybridThinClient} proposed a hybrid thin client protocol for multimedia streaming where they addressed interactive games. In their work, a realtime desktop streamer was formulated using a video-codec, to stream graphical output of applications after GPU processing to a thin-client device. In 2007, Eisert and Fechteler \cite{eisert2007remoteRendering} introduced the concept of remote rendering of computer games. This work was a part of European project Games@Large \cite{tzruya2006gamesATlarge} and was a stepping stone in cloud gaming. 
 
-\section{Cloud Gaming Overview}
+Apart from elaborating rendering of game scenes at server and streaming to clients, the work also explained ideas of local rendering for cloud gaming applications. Here, graphic commands were streamed to the client, where game scenes are rendered locally. This work was extended by Eisert and Fechteler\cite{eisert2008LanGaming} in 2008, when they introduced the idea of computer graphics streaming over Local Area Network (LAN). This work focused on graphics in video games and how streaming over local area networks can be optimized. In the same year, the emergence of OnLive \cite{onlive} as the first commercial platform for providing 'Gaming-as-a-service' and its high appreciation motivated the business and academic community to take 'Cloud Gaming' more seriously. 
+
+Since then, most current work has focused on overcoming challenges such as bandwidth. After OnLive, many other cloud gaming platforms emerged including Gaikai \cite{gaikai}, NVIDIA GRID \cite{nvidia}. GamingAnyWhere \cite{huang2013gaminganywhere} was the first open source cloud gaming platform being used for research. Most of these cloud gaming platforms use remote rendering model of graphics and game video to be streamed to client devices. However, an important breakthrough was done by Wei Cai et al. \cite{cai2013cognitive}, when they proposed and implemented a `Cognitive Model' for gaming. Here the game components were transferred from cloud servers to client devices and back, to enhance the player's gaming experience.
+
+\section{Components of Cloud Gaming}
 Cloud gaming has a potential to provide distinct advantages to different stake holders. To understand these potential advantages, we should first look at the stakeholders involved in cloud gaming. 
-
-\subsection{Involved Actors}
-In traditional gaming industry, players and developers were the only two stake holders in gaming industry. With the advent of cloud gaming, game service providers is also added. Game service provider is a class of actors which does not design and develop a game, instead it provides only the hosting services for games. 
-
-\subsection{Potential Advantages of Cloud Gaming}
-
-\subsubsection{Potential Advantages for Players}
-player community of computer games \cite{cai2013next}:
 \begin{itemize}
   \item \textbf{Thin Client:} A very thin client is needed to play the game, as games are being rendered on the cloud, and video is streamed from server. As a result, the client is required to receive and show the video frames of the game, and send the user's interactions to the cloud.
   \item \textbf{Potential Battery Conservation:} Complex rendering is being done on the cloud which reduces the battery consumption of the client machine.
   \item \textbf{Seamless gaming:} Games are platform independent and the players can seamlessly play the same game resuming from the same level by sitting anywhere in the world.
 \end{itemize}
+
+In traditional gaming industry, players and developers were the only two stake holders in gaming industry. With the advent of cloud gaming, game service providers is also added. Game service provider is a class of actors which does not design and develop a game, instead it provides only the hosting services for games. 
+
+Player community of computer games \cite{cai2013next}:
+
 
 \subsubsection{Potential Advantages for Developers}
 Apart from being beneficial for the player community, cloud gaming provides following advantages to the developer community of computer games:
@@ -254,7 +265,7 @@ However, the advantages described above cannot be achieved without overcoming si
 Despite the advantages provided by cloud gaming, the area still has many challenges which are needed to be managed by the researchers. The challenges faced by the cloud gaming application depend on the architecture of that application. For example, the biggest hurdle in the efficiency of a `Remote Rendering Cloud gaming application' is \textbf{the limited bandwidth}. Since the scenes of the game have to be transmitted over the internet in the form of video frames. Therefore, the bandwidth needs to be fast enough to quickly transmit these frames to the client and interactions of client back to the server. Similarly, the complication in `Local Rendering application' is the \textbf{formation of such instructions} that could be used to completely render the scene of game at client side.\cite{cai2014toward}
 Other than these obstacles, rendering the game remotely with efficient encoding is also considered as a problem in this technology. Moreover, recent happening with Onlive and GaiKai has guided the researchers to think about a better business model that can be used by cloud gaming service providers.
 
-\section{Gaming Architectures}
+\section{Cloud Gaming Architectures}
 Recent literature describes two kinds of cloud gaming \cite{hong2015enabling}:
 \begin{enumerate}
   \item \textbf{Video Streaming Cloud Gaming:} Most appreciated form of cloud gaming in which video is streamed towards the client. It is usually referred as `Gaming on Demand' and in the following sections, the term Cloud Gaming would be used instead of Video Streaming Cloud Gaming.
@@ -264,8 +275,8 @@ Recent literature describes two kinds of cloud gaming \cite{hong2015enabling}:
 \subsection{Application Components}
 Since, in cloud gaming, output of games is streamed to client over the internet and users' interactions are sent back towards the cloud. Therefore, to do all these functions, a cloud gaming platform mostly have specific components and each of them does its part and forwards its output to other. A general online game would be having four main components\cite{cai2014toward}:
 \begin{itemize}
-    \item	Input module
-    \item	Game logic
+    \item	Input module: ```is what?
+    \item	Game logic: 
     \item	Networking module
     \item	Rendering module
 \end{itemize}
